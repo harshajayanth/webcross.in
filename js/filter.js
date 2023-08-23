@@ -48,7 +48,7 @@ $(document).ready(function () {
         for (const districtObject of stateData[selectedState]) {
             districtNamesLoop.push(districtObject.district);
         }
-        console.log(districtNamesLoop)
+
         $districtSelect.empty().append($('<option selected>', {
             class: 'form-control',
             value: '',
